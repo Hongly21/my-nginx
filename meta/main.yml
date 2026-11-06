@@ -1,6 +1,7 @@
 ---
 galaxy_info:
   author: Hongly21
+  namespace: Hongly21
   role_name: my_nginx
   description: An Ansible role to install and configure Nginx.
   license: MIT
