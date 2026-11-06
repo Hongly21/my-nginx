@@ -1,0 +1,13 @@
+---
+# tasks file for my-nginx
+- name: Install Nginx
+  ansible.builtin.apt:
+    name: "{{ nginx_package_name }}"
+    state: present
+    update_cache: true
+
+- name: Start Nginx
+  ansible.builtin.service:
+    name: nginx
+    state: started
+    enabled: true

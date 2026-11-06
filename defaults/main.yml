@@ -1,0 +1,6 @@
+---
+# defaults file for my-nginx
+nginx_package_name: nginx
+
+
+
